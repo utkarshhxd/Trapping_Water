@@ -41,4 +41,4 @@ public class Trapping_Water {
     }
 }
 
-// sample output = 4 
+// sample output = 4
