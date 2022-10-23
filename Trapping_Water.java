@@ -13,6 +13,10 @@ public class Trapping_Water {
 
         //for right max 
         int rightMax[] = new int[height.length];
-        
+        rightMax[height.length] = height[height.length-1];
+        for(int i = n-2; i>=0; i--) {
+            rightMax[i] = Math.max(height[i],rightMax[i+1]);
+        }
+
     }
 }
