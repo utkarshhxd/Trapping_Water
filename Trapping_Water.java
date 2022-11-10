@@ -34,9 +34,9 @@ public class Trapping_Water {
 
     public static void main(String[] args) {
 
-        // sample input {5,2,8,3,4,2}
+        // sample input {0,1,0,2,1,0,1,3,2,1,2,1}
 
-        int height[] = {5,2,8,3,4,2};
+        int height[] = {0,1,0,2,1,0,1,3,2,1,2,1};
         System.out.println(trappedwater(height));
     }
 }
